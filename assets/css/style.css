@@ -22,13 +22,13 @@ body {
 }
 
 .perfil img {
-  width: 32vh;
+  width: 24vh;
   border-radius: 50%;
   transition: transform 0.5s ease-in-out, border-radius 0.5s ease-in-out;
 }
 
 .perfil img:hover {
-  transform: scale(1.5) translateY(-6vh);
+  transform: scale(2) translateY(-6vh);
   border-radius: 10%;
 }
 
@@ -79,9 +79,10 @@ h1 {
   transform: scale(1.4) translateY(-0.5vh);
 }
 
-h4, h5 {
+h2 {
   color: #ed145b;
   font-weight: 300;
+  font-size: 1.3vh;
 }
 
 .hero {
